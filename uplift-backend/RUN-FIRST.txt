@@ -1,0 +1,13 @@
+1. Open this folder in IntelliJ IDEA or VS Code.
+2. Ensure Java 21 and Maven 3.9+ are installed.
+3. Run:
+   mvn spring-boot:run
+4. Test:
+   http://localhost:8080/api/health
+5. Swagger:
+   http://localhost:8080/swagger-ui/index.html
+
+This starter intentionally uses H2 by default. PostgreSQL configuration is already prepared in:
+src/main/resources/application-postgres.properties
+
+We will replace the starter DB/auth/AI configuration with the real project implementation next.
